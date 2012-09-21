@@ -18,7 +18,7 @@ $(function(){
       $("#imgFull").height("90%");
     }
         
-    $("#imgFull").css({'top':($(window).height() - $("#imgFull").height())/2,'left':($(window).width() - $("#imgFull").width())/2 });
+    $("#imgFull").css({'top':($(window).height() - $("#imgFull").height())/2 + window.scrollY,'left':($(window).width() - $("#imgFull").width())/2 });
 
 
 
@@ -81,9 +81,9 @@ $(function(){
         $("#ventanaConsultas").dialog("open");
     }
                             )
-      $(".iframe").width(myMaxWidth());
+      $(".iframe").width(myMaxWidth()-40);
   
-  $(".iframe").height(myMaxHeight());
+  $(".iframe").height(myMaxHeight()-55);
   
   $(".accordion").accordion("activate",false)
     $.each($(".doc"),function(i,e){
@@ -96,11 +96,11 @@ $(function(){
 
 function myMaxHeight(){
   //
-  return ($(window).height()<961 && $(window).width()<641 ?$(window).height():480);
+  return ($(window).height()<961 && $(window).width()<641 ?$(window).height():600);
 }
 function myMaxWidth(){
   //
-  return ($(window).width()<641?$(window).width():640);
+  return ($(window).width()<641?$(window).width():700);
 }
 
 
