@@ -2,7 +2,7 @@
 
 $(function(){
   
- 
+  
 
   $(".divImagenPalacio").on("click",function(){ 
     $("#imgFull").width("auto");
@@ -19,18 +19,20 @@ $(function(){
     }
         
     $("#imgFull").css({'top':($(window).height() - $("#imgFull").height())/2 + window.scrollY,'left':($(window).width() - $("#imgFull").width())/2 });
-
+    $("body").append($('<p class="fotosBy">Fotografías por <b>Cristián Domínguez</b> </p>').css("top",($(window).height()+ window.scrollY)- 64));
 
 
    })
   $("#overlay").click(function(){
     $(this).hide();
     $("#imgFull").hide();
+    $(".fotosBy").remove();
   })
 
  $("#imgFull").click(function(){
     $("#overlay").hide();
     $("#imgFull").hide();
+    $(".fotosBy").remove();
   })
   $("#background").height($(window).height())
  /* $("body").prepend($("<div/>").attr("id","fondo"))
@@ -71,9 +73,15 @@ $(function(){
     width:myMaxWidth()
   }
                       )
+  $(".ui-dialog-titlebar").append($('<a href="#" class="ui-dialog-titlebar-close ui-corner-all imprimir" role="button"><span class="ui-icon ui-icon-print">close</span></a>').click(function(){
+          window.print();
+          return false;
+      }))
     $("#btnVerRegistro").on("click",function(){
       
       $("#ventanaRegistro").dialog("open");
+
+      
     }
                            )       
       $("#btnVerConsultas").on("click",function(){
