@@ -114,7 +114,7 @@ function myMaxWidth(){
 
 
 var docs =  [
-  "",
+  "Bases Especiales.pdf",
   "001. ANEXO I. Levantamiento topográfico.rar",
   "002. ANEXO II. Levantamiento crítico del edificio.rar",
   "003.Anexo III.informe estado estructural.pdf",
@@ -129,7 +129,7 @@ var docs =  [
   "012.ANEXO XII. Decreto MH.pdf",
   "013.ANEXO XIII..resolucion exenta BBNN.pdf",
   "014. Anexo XIV. Vineta tipo.rar",
-  "015.ANEXO XV.terminos de referencia.pdf",
+  "Anexo Nº XV TDR.pdf",
   "DTO 513.pdf",
   "Bases Generales Res Nº144.pdf"
   
