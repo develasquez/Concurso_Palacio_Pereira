@@ -110,27 +110,23 @@ function myMaxWidth(){
   //
   return ($(window).width()<641?$(window).width():700);
 }
-
-
-
 var docs =  [
-  "Bases Especiales.pdf",
-  "001. ANEXO I. Levantamiento topográfico.rar",
-  "002. ANEXO II. Levantamiento crítico del edificio.rar",
-  "003.Anexo III.informe estado estructural.pdf",
-  "004. ANEXO IV. Criterios de intervencion.pdf",
-  "005. ANEXO V.informe conservacion.pdf",
-  "006. ANEXO VI.informe arqueologico.pdf",
-  "007.ANEXO VII. antecedentes historicos.pdf",
-  "008.ANEXO VIII.esquema funcional.pdf",
-  "009.ANEXO IX. organigrama.pdf",
-  "010.ANEXO X. CIP.pdf",
-  "011. ANEXO XI.Ord.181 DOM.pdf",
-  "012.ANEXO XII. Decreto MH.pdf",
-  "013.ANEXO XIII..resolucion exenta BBNN.pdf",
-  "014. Anexo XIV. Vineta tipo.rar",
-  "Anexo Nº XV TDR.pdf",
-  "DTO 513.pdf",
-  "Bases Generales Res Nº144.pdf"
-  
+  "Bases%20Especiales.pdf",
+  "001.%20ANEXO%20I.%20Levantamiento%20topogarfico.rar",
+  "002.%20ANEXO%20II.%20Levantamiento%20critico%20del%20edificio.rar",
+  "003.Anexo%20III.informe%20estado%20estructural.pdf",
+  "004.%20ANEXO%20IV.%20Criterios%20de%20intervencion.pdf",
+  "005.%20ANEXO%20V.informe%20conservacion.pdf",
+  "006.%20ANEXO%20VI.informe%20arqueologico.pdf",
+  "007.ANEXO%20VII.%20antecedentes%20historicos.pdf",
+  "008.ANEXO%20VIII.esquema%20funcional.pdf",
+  "009.ANEXO%20IX.%20organigrama.pdf",
+  "010.ANEXO%20X.%20CIP.pdf",
+  "011.%20ANEXO%20XI.Ord.181%20DOM.pdf",
+  "012.ANEXO%20XII.%20Decreto%20MH.pdf",
+  "013.ANEXO%20XIII..resolucion%20exenta%20BBNN.pdf",
+  "014.%20Anexo%20XIV.%20Vineta%20tipo.rar",
+  "Anexo%20N%20XV%20TDR.pdf",
+  "DTO%20513.pdf",
+  "Bases%20Generales%20Res%20N144.pdf" 
 ]
